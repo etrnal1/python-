@@ -34,7 +34,10 @@ ps://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command
 
 ## 如果从注册gitlab 需要选择手机号进行注册,没有86选项,在控制台console选项输入下面代码即可
   ```js
-   var option = new Option ("CH China+86","CH+86")； 2 option. selected = true; s document. getElementBv Id ('country ").options .add (option, 0);
+   var option = new Option ("CH China+86","CH+86");
+   option.selected = true;
+   document.getElementById('country')
+   options.add (option, 0)
   ```
 
 ### 下载git
